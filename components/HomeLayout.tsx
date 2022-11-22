@@ -13,22 +13,22 @@ const HomeLayout = () => {
         </div>
       </div>
       <div className="flex flex-col justify-start pt-32 gap-4 items-start p-5 fixed top-16 left-0 shadow-md shadow-neutral-300 xl:bg-transparent h-full w-[20rem] ">
-        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#b3bcc2] w-[100%] p-3 gap-4 items-center rounded-md ">
+        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#e3e4e6] w-[100%] p-3 gap-4 items-center rounded-md ">
           <SiReact size={40} color="dodgerblue" />
 
           <p className="text-lg cursor-pointer ">Navigation</p>
         </div>
-        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#b3bcc2] w-[100%] p-3 gap-4 items-center rounded-md ">
+        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#e3e4e6] w-[100%] p-3 gap-4 items-center rounded-md ">
           <SiReact size={40} color="dodgerblue" />
 
           <p className="text-lg ">hkjzsjhdzsjskhfksjhf</p>
         </div>
-        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#b3bcc2] w-[100%] p-3 gap-4 items-center rounded-md ">
+        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#e3e4e6] w-[100%] p-3 gap-4 items-center rounded-md ">
           <SiReact size={40} color="dodgerblue" />
 
           <p className="text-lg ">Navigation</p>
         </div>
-        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#b3bcc2] w-[100%] p-3 gap-4 items-center rounded-md ">
+        <div className="flex border-2 hover:border-[#19b3f0] cursor-pointer border-[#e3e4e6] w-[100%] p-3 gap-4 items-center rounded-md ">
           <SiReact size={40} color="dodgerblue" />
 
           <p className="text-lg ">Navigation</p>
