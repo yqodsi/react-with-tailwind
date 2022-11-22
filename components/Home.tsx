@@ -4,11 +4,12 @@ import HomeLayout from "./HomeLayout";
 
 const Home = () => {
   return (
-    <div >
+    <div>
       <HomeLayout />
-      <div className="mt-80 bg-slate-300">
+      <div className="mt-20 ml-[21rem] mr-4 bg-slate-300">
         <Outlet />
       </div>
+  
     </div>
   );
 };
