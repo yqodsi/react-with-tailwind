@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import HomeLayout from "./HomeLayout";
 
 const Home = () => {
   return (
-    <div>
-      <p className="bg-red-400 text-bold">hello</p>
+    <div >
+      <HomeLayout />
+      <div className="mt-80 bg-slate-300">
+        <Outlet />
+      </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

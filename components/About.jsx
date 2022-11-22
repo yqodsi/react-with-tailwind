@@ -1,9 +1,11 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const About = () => {
   return (
     <div>
-      <p className=" capitalize">about</p>
+      <p className="bg-red-800 h-16 capitalize">about</p>
+      <Outlet/>
     </div>
   );
 };
