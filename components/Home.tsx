@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
       <HomeLayout />
-      <div className="mt-20 ml-[21rem] mr-4 bg-slate-300">
+      <div className="mt-20 ml-[21rem] mr-4 border  bg-slate-300">
         <Outlet />
       </div>
   
